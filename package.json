@@ -2,13 +2,14 @@
   "name": "@zooduck/command-line-args",
   "version": "0.0.1",
   "description": "Returns command-line arguments from a Node.js process as a dictionary",
-  "main": "dist/index.module.mjs",
+  "main": "dist/index.module.js",
+  "type": "module",
   "repository": {
     "url": "git+https://github.com/zooduck/command-line-args.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.mjs"
+    "build": "node build.js"
   },
   "author": "zooduck",
   "license": "MIT",
